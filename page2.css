@@ -1,0 +1,32 @@
+.parent-container {
+}
+
+.upper-container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inside-lower-div {
+  width: 230px;
+  height: 250px;
+  margin-top: 20px;
+  border: 1px solid red;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+  position: relative;
+}
+
+.add-plus {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.mybutton:hover {
+  background-color: brown;
+  height: 50px;
+  width: 150px;
+}

@@ -1,0 +1,38 @@
+.parent-container {
+  margin: 10px 150px 30px 150px;
+}
+
+.upper-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lower-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.inside-lower-div {
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
+  border: 1px solid red;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px 3px rgb(214, 214, 214), 1px 1px 0px 0px gray;
+  border-collapse: collapse;
+}
+
+.bg-for-plus {
+  width: 48px;
+  height: 48px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.mybutton:hover {
+  background-color: brown;
+  height: 50px;
+  width: 150px;
+}
